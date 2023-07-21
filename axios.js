@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = `http://dikapi.onrender.com/api`;
+const baseURL = `https://dikshant-0.onrender.com/api`;
 
 const instance = axios.create({
   // .. congigure axios baseURL
