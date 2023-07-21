@@ -45,7 +45,7 @@ const UploadImage = () => {
     formData.append("image", imageFile);
 
     axios
-      .post(`http://localhost:5000/upload/${category.active}`, formData, {
+      .post(`https://dikshant-0.onrender.com/upload/${category.active}`, formData, {
         headers: {
           "Content-Type": "multipart/form-data", // Set proper Content-Type header for file upload
         },
